@@ -13,4 +13,7 @@ export class PanelComponent implements OnInit {
   ngOnInit() {
   }
 
+  //タップ時画像入れ替えメソッド
+  //memo NgClass,NgStyleで可能かも。
+  //https://is.gd/VqJuQ4
 }

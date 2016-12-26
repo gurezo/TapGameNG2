@@ -1,0 +1,17 @@
+.td { display: table-cell; border:1px solid gray; text-align:center; }
+
+.pannel{
+	margin: 0;
+	padding: 0;
+	background-size:cover;
+}
+
+.hima {
+	background: url(../../img/hima_pannel150.png);
+	background-size:cover;
+}
+
+.tsubushi {
+	background-image: url(../../img/tsubushi_pannel.png);
+	background-size:cover;
+}
