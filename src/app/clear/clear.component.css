@@ -1,3 +1,5 @@
 .gameClear {
 	background:url(../../img/game_clear.png);
+  width: 320px;
+  height: 480px;
 }

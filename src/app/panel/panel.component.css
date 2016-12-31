@@ -1,4 +1,4 @@
-.td { display: table-cell; border:1px solid gray; text-align:center; }
+.divTd { display: table-cell; border:1px solid gray; text-align:center; }
 
 .pannel{
 	margin: 0;
