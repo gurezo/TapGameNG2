@@ -7,15 +7,15 @@ import { TopComponent } from './top/top.component';
 
 const appRoute: Routes = [
   {
-    path: 'heroes',
+    path: 'clear',
     component: ClearComponent
   },
   {
-    path: 'dashboard',
+    path: 'top',
     component: TopComponent
   },
   {
-    path: 'detail/:id',
+    path: 'game/:id',
     component: GameComponent
   },
   {

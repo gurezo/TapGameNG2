@@ -12,7 +12,7 @@ export class GameService {
   }
 
   //タップ画像枚数カウント
-  checkClear(): void {
+  chekTapCount(): void {
 
   }
 
