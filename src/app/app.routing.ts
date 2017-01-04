@@ -15,7 +15,7 @@ const appRoute: Routes = [
     component: TopComponent
   },
   {
-    path: 'game/:id',
+    path: 'game',
     component: GameComponent
   },
   {

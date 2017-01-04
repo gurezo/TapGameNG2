@@ -1,3 +1,14 @@
 .divTable { display:table; border-collapse:collapse;width:100%; }
 .divTr { display:table-row; }
 .divTd { display: table-cell; border:1px solid gray; text-align:center; }
+
+.pannel{
+	margin: 0;
+	padding: 0;
+	background-size:cover;
+}
+
+.hima {
+	background: url(../../img/hima_pannel150.png);
+	background-size:cover;
+}
