@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
 <!--
 デバッグ用
 -->
-     <a routerLink="/dashboard">game</a>
-     <a routerLink="/heroes">clear</a>
+     <a routerLink="/top">game</a>
+     <a routerLink="/clear">clear</a>
    </nav>
    <router-outlet></router-outlet>
   `,

@@ -1,5 +1,8 @@
 /*  TapGameのクリアページ用コンポーネント  */
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Params } from '@angular/router';
+
+import { GameService } from '../game.service';
 
 @Component({
   selector: 'app-clear',
@@ -8,7 +11,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ClearComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private gameService: GameService,
+    private route: ActivatedRoute) { }
 
   ngOnInit() {
   }

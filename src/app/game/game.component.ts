@@ -1,5 +1,8 @@
 /*  TapGameのゲームプレイページ用コンポーネント  */
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Params } from '@angular/router';
+
+import { GameService } from '../game.service';
 
 @Component({
   selector: 'app-game',
@@ -8,7 +11,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GameComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private gameService: GameService,
+    private route: ActivatedRoute) { }
 
   ngOnInit() {
   }
