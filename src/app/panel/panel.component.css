@@ -1,22 +1,13 @@
-;host {
-  height: 0px;
-  margin: 0;
-	padding: 0;
-}
-
-.divTd {
-  display: table-cell; border:1px solid gray; text-align:center;
+div {
+  float: left;
+  border:1px
+  solid gray;
+  text-align:center;
   width: 160px;
   height: 160px;
-}
-
-.pannel{
-	margin: 0;
+  margin: 0;
 	padding: 0;
 	background-size:cover;
-}
-
-.hima {
-	background: url(../../img/hima_pannel150.png);
-	background-size:cover;
+  background: url(../../img/hima_pannel150.png);
+/*  background-image: url(../../img/tsubushi_pannel.png); */
 }

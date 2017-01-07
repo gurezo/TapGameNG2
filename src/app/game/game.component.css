@@ -1,10 +1,4 @@
-.divTable {
-  display:table;
-  border-collapse:collapse;
-  width: 1600px;
-  height: 1600px;
-}
-
-.divTr {
-  display:table-row;
+;host {
+  width: 1440px;
+  height: 1440px;
 }

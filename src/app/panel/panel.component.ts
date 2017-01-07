@@ -16,6 +16,7 @@ export class PanelComponent implements DoCheck {
   ngDoCheck(){
     //htmlタグで書いた方がスマートだけど
     //チェック処理は、tsファイルに実装した方が良さそう
+    // 画像のソース指定を切り替える方式にする
   }
 
 }
