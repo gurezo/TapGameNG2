@@ -1,6 +1,10 @@
-.divTable { display:table; border-collapse:collapse;width:100%; }
+.divTable { display:table; border-collapse:collapse;width:480px;height: 480px;}
 .divTr { display:table-row; }
-.divTd { display: table-cell; border:1px solid gray; text-align:center; }
+.divTd {
+  display: table-cell; border:1px solid gray; text-align:center;
+  width: 30%;
+  height: 30%;
+}
 
 .pannel{
 	margin: 0;
