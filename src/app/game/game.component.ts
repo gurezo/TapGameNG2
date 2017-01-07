@@ -4,7 +4,6 @@ import { ActivatedRoute, Params } from '@angular/router';
 
 import { GameService } from '../game.service';
 import { pannelsInfo, pannel_size } from '../pannels.info';
-import { parts}
 
 @Component({
   selector: 'app-game',
