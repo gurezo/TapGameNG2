@@ -19,7 +19,7 @@ export class GameComponent implements OnInit {
     private route: ActivatedRoute) { }
 
   ngOnInit() {
-    console.log("pannelsInfo = " + pannelsInfo);
+
   }
 
 }

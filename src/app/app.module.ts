@@ -9,12 +9,14 @@ import { ClearComponent } from './clear/clear.component';
 import { GameComponent } from './game/game.component';
 import { routing } from './app.routing';
 import { TopComponent } from './top/top.component';
+import { PanelComponent } from './panel/panel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopComponent,
     GameComponent,
+    PanelComponent,
     ClearComponent
   ],
   imports: [
