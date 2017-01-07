@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 
 import { GameService } from '../game.service';
+import { pannelsInfo, pannel_size } from '../pannels.info';
 
 @Component({
   selector: 'app-game',
@@ -16,6 +17,7 @@ export class GameComponent implements OnInit {
     private route: ActivatedRoute) { }
 
   ngOnInit() {
+    console.log("pannelsInfo = " + pannelsInfo);
   }
 
 }
