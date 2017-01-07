@@ -1,28 +1,5 @@
-<!--
-動的マトリックスを作成させる。
-テスト用
--->
 <div class="divTable">
-<!--
-  <div class="divTr" *ngFor="let td of pannelsInfo">
-    <div class="divTd pannel hima"></div>
-    <div class="divTd pannel hima"></div>
-    <div class="divTd pannel hima"></div>
-  </div>
--->
-  <div class="divTr">
-    <div class="divTd pannel hima"></div>
-    <div class="divTd pannel hima"></div>
-    <div class="divTd pannel hima"></div>
-  </div>
-  <div class="divTr">
-    <div class="divTd pannel hima"></div>
-    <div class="divTd pannel hima"></div>
-    <div class="divTd pannel hima"></div>
-  </div>
-  <div class="divTr">
-    <div class="divTd pannel hima"></div>
-    <div class="divTd pannel hima"></div>
-    <div class="divTd pannel hima"></div>
+  <div class="divTr" *ngFor="let td of rec">
+    <div class="divTd pannel hima" *ngFor="let pnl of rec"></div>
   </div>
 </div>

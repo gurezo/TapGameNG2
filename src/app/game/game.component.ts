@@ -4,6 +4,7 @@ import { ActivatedRoute, Params } from '@angular/router';
 
 import { GameService } from '../game.service';
 import { pannelsInfo, pannel_size } from '../pannels.info';
+import { parts}
 
 @Component({
   selector: 'app-game',
@@ -11,6 +12,8 @@ import { pannelsInfo, pannel_size } from '../pannels.info';
   styleUrls: ['./game.component.css']
 })
 export class GameComponent implements OnInit {
+
+  rec = pannelsInfo;
 
   constructor(
     private gameService: GameService,
