@@ -8,6 +8,12 @@ div {
   margin: 0;
 	padding: 0;
 	background-size:cover;
+}
+
+.hima {
   background: url(../../img/hima_pannel150.png);
-/*  background-image: url(../../img/tsubushi_pannel.png); */
+}
+
+.tsubushi {
+  background-image: url(../../img/tsubushi_pannel.png);
 }
