@@ -22,4 +22,7 @@ export class GameComponent implements OnInit {
 
   }
 
+  // ここでサービルとかを呼び出して自動的に画面遷移したい。
+  // ど〜ゆ〜タイミングでやったら良いか・・・・・。
+  // this.router.navigate(['/clear']);
 }

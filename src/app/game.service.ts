@@ -1,5 +1,6 @@
 /*  TapGameのゲーム用サービス  */
 import { Injectable } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Injectable()
 export class GameService {
@@ -13,11 +14,13 @@ export class GameService {
 
   //タップ画像枚数カウント
   chekTapCount(): void {
-
+    // クリア画面へ自動遷移
+    this.movePage();
   }
 
   //画面自動遷移
   movePage(): void {
-
+    console.log("movePage()")
+    return;
   }
 }
